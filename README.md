@@ -8,10 +8,12 @@ Take a look at the [Kedro documentation](https://kedro.readthedocs.io/en/stable/
 
 ## Alterations made
 
-###Dockerfile 
+### Dockerfile 
+
 Additional lines were added to the Dockerfile inorder to install python3.7 (know working version with kedro) and python depedencies in order to get kedro to run
 
-###KedroOperator
+### KedroOperator
+
 The KedroOperator was updated to use python3.7 to call the same kedro function as implememted in the plugin
 
 ## How to install dependencies
